@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.font-ubunta{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.animate-move-right{
+  animation: move-right 0.4s linear ;
+  left: 60%;
+}
+
+.animate-move-left{
+  animation: move-left 0.4s linear ;
+  left:5%;
+}
+
+
+@keyframes move-right {
+  from {
+    left: 5%;
+    
+  }
+  to {
+    left: 60%;
+  }
+}
+
+@keyframes move-left {
+  from {
+    left: 60%;
+    
+  }
+  to {
+    left: 5%;
+  }
+}
