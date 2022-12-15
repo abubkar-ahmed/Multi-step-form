@@ -101,7 +101,7 @@ function SelectPlan(props) {
             </li>
 
             <li 
-            className={`border p-5 py-3 flex gap-4 rounded-lg border-marineBlue cursor-pointer ${selected === 'pro' ? 'border-marineBlue bg-magnolia' : 'border-lightGray bg-white '} md:flex-col md:w-1/3 hover:border-marineBlue transition-all `}
+            className={`border p-5 py-3 flex gap-4 rounded-lg cursor-pointer ${selected === 'pro' ? 'border-marineBlue bg-magnolia' : 'border-lightGray bg-white '} md:flex-col md:w-1/3 hover:border-marineBlue transition-all `}
             onClick={() => {
               setSelected('pro');
             }}
