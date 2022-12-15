@@ -116,7 +116,7 @@ function Personal(props) {
                     <p className='text-strawberryRed font-normal'>{errPhone}</p>
                     }
                 </div>
-                <input type='text' max='10' placeholder='e.g.+1234567890' id='phone' className={`border border-coolGray py-[5px] px-[7px] rounded-md mb-[5px] focus:outline-none md:mb-5 ${errPhone ? 'border-strawberryRed' : null} `}
+                <input type='text' placeholder='e.g.+1234567890' id='phone' className={`border border-coolGray py-[5px] px-[7px] rounded-md mb-[5px] focus:outline-none md:mb-5 ${errPhone ? 'border-strawberryRed' : null} `}
                 onChange={(e) => {
                     setPhone(e.target.value)
                 }}
